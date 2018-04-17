@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ga.charapa.exbrlite">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="ExternalBrowserLite">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Open Facebook Lite links in external browser instead of in-app one..." />
+    </application>
+
+</manifest>
